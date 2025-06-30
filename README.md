@@ -43,14 +43,19 @@ g++ akerscode.cpp -o akers
 ```
 
 ## Example Input and Output
+(Note by default x=0,y=1,z=0 
+but it can be changed)
 
 ```
-Enter two Boolean inputs:
-A = 1
-B = 0
-Operation: AND
-
-Output = 0
+Enter Boolean Expression: xy+yz+zx
+Minterms: 100 101 110 111 
+Maxterms: 000 001 010 011 
+Akers Array Matrix:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+Solution: 0
 ```
 
 ## Educational Use
